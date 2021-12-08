@@ -1,0 +1,34 @@
+body{
+    background-color:palevioletred;
+}
+
+h1{
+    background-color: linen;
+    color:goldenrod;
+}
+
+#showSketch{
+    float: right;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 27px;
+    color:seashell;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px purple;}
+    to{box-shadow: 1px 1px 38px lemonchiffon;}
+}
